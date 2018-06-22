@@ -2,11 +2,11 @@
 <b-container style="padding:0 0 0 0;">
     <div class="form-group col-md-12 mt-4">
         <label class="mainfont" for="language">Language</label>
-        <b-form-select v-model="language" :options="languages" class="mb-3" style="border-radius: 50px 50px 50px 50px;" />
+        <b-form-select v-model="language" :options="languages" class="mb-3 border" />
     </div>
     <div class="form-group col-md-12">
         <label class="mainfont" for="time">Time Zone</label>
-        <b-form-select v-model="country" :options="countries" class="mb-3" style="border-radius: 50px 50px 50px 50px;" />
+        <b-form-select v-model="country" :options="countries" class="mb-3 border"  />
     </div>
     <div class="float-right mt-4">
         <button class="btn btn-1 btn-2 px-2">Save</button>
@@ -69,5 +69,7 @@ export default {
 </script>
 
 <style>
-
+.border{
+  border-radius:50px 50px 50px 50px;
+}
 </style>

@@ -3,8 +3,8 @@
   <div>
       <div class="mainfont px-2 advancedsetting-heading">
           <strong>Active Devices</strong>
-              <div class="advancedsetting-btn" style="margin-left:150px;">
-                  <button class="btn btn-1 button1 px-2">View All</button>
+              <div class="advancedsetting-btn">
+                  <button class="button1 px-2"><b>View All</b></button>
                 </div>
                 </div>
                 <div class="mainfont px-2 advancedsetting-instruction">
@@ -14,7 +14,7 @@
               <div>
                 <div class="mainfont px-2 advancedsetting-heading">
                 <strong>Allow Connection Request</strong>
-                  <div class="flipswitch option-switch" style="margin-left:160px;">
+                  <div class="flipswitch option-switch" style="margin-left:183px;">
                     <input type="checkbox" name="flipswitch" class="flipswitch-cb" id="fs" checked>
                     <label class="flipswitch-label" for="fs">
                             <div class="flipswitch-inner"></div>
@@ -29,7 +29,7 @@
               <div>
                 <div class="mainfont px-2 advancedsetting-heading">
                   <strong>Allow Notifications</strong>
-                  <div class="flipswitch option-switch" style="margin-left:160px;">
+                  <div class="flipswitch option-switch" style="margin-left:183px;">
                     <input type="checkbox" name="flipswitch" class="flipswitch-cb" id="fs1" checked>
                     <label class="flipswitch-label" for="fs1">
                             <div class="flipswitch-inner"></div>
@@ -44,7 +44,7 @@
               <div>
                 <div class="mainfont px-2 advancedsetting-heading">
                   <strong>Allow Email/Mobile Notifications</strong>
-                  <div class="flipswitch option-switch" style="margin-left:173px;">
+                  <div class="flipswitch option-switch" style="margin-left:183px;">
                     <input type="checkbox" name="flipswitch" class="flipswitch-cb" id="fs3" checked>
                     <label class="flipswitch-label" for="fs3">
                             <div class="flipswitch-inner"></div>
@@ -59,8 +59,8 @@
               <div>
                 <div class="mainfont px-2 advancedsetting-heading">
                   <strong>Delete Your Account</strong>
-                  <div class="advancedsetting-btn" style="margin-left:150px;">
-                    <button class="btn btn-1 button2 px-2">Delete</button>
+                  <div class="advancedsetting-btn" style="">
+                    <button class="button2 px-2"><b>Delete</b></button>
                   </div>
                 </div>
                 <div class="mainfont px-2 advancedsetting-instruction">
@@ -85,31 +85,31 @@ export default{
 .button1 {
   background-color: #fff;
   color: var(--main-primary-color);
-  border: 2px solid var(--main-primary-color);
+  margin-left:165px;
+  font-size:15px;
+  /* border: 2px solid var(--main-primary-color); */
+border:none;
 }
 .button2 {
   background-color: #fff;
   color: red;
-  border: 2px solid red;
+  margin-left:165px;
+    font-size:15px;
+  /* border:2px solid red; */
+  border:none;
 }
 .option-switch{
-
 margin-top:-25px;
 }
 .advancedsetting-heading{
   font-size:13px;
   margin-top:20px;
 }
-.advanced-setting{
-font-size:13px;
-margin-top:13px;
-}
 .advancedsetting-instruction{
 margin-top:8px;
 font-size:12px;
 }
 .advancedsetting-btn{
-
 margin-top:-20px;
 }
 .flipswitch {

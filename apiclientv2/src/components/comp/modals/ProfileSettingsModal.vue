@@ -1,16 +1,16 @@
 <template>
-<b-container style="padding:0 0 0 0;">
+<b-container>
     <b-modal id="profileSettingsModal"
     title="Profile Setting"
     hide-footer
     no-close-on-backdrop
     no-close-on-esc
     centered
-    v-model="showProfileSettingsModal" style="padding:0 0 0 0;">
-       <b-container fluid>
+    v-model="showProfileSettingsModal">
+       <b-container style="padding:0 0 0 0;">
             <b-row>
                 <b-col >
-                  <b-tabs  vertical nav-wrapper-class="w-5" style="margin-left:-50px;margin-top:-16px;">
+                  <b-tabs vertical nav-wrapper-class="w-2" style="margin-left:-31px;margin-top:-16px;">
    <b-tab title="Profile" active>
   <profile-tab></profile-tab>
    </b-tab>

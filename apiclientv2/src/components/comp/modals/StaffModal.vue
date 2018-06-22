@@ -38,7 +38,7 @@
         </b-container>
         <b-container class="p-0 m-0" style="height: 300px; overflow: hidden; overflow-y: scroll; overflow-y: scroll;">
             <staff-list></staff-list>
-            <div v-for=" (item,index) in staffList" >
+            <div v-for=" (item,index) in staffList" v-bind:key="item.name">
                 <b-list-group>
                     <b-list-group-item href="#" style="border:none">
                         <div>
